@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ConversorTemperatura {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
 
         System.out.println("Escolha a conversão: \n1. Celsius para Fahrenheit\n2. Fahrenheit para Celsius");
         int escolha = scanner.nextInt();
